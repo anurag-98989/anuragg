@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anurag Topup Center</title>
+<style>
+body{font-family:sans-serif;background:#0f172a;color:white;text-align:center;padding:15px;margin:0}
+h1{color:#facc15;font-size:26px}
+.top{background:#facc15;color:black;padding:10px;border-radius:10px;font-weight:bold}
+input{width:90%;padding:13px;border-radius:10px;border:none;font-size:16px;margin:10px 0;text-align:center}
+.card{background:white;color:black;border-radius:15px;padding:15px;margin:12px 0;text-align:left}
+.price{color:#16a34a;font-weight:bold}
+button{background:#22c55e;color:white;border:none;padding:13px;border-radius:10px;font-size:17px;width:100%;font-weight:bold}
+.badge{background:#ef4444;color:white;padding:3px 8px;border-radius:20px;font-size:12px}
+.review{background:#1e293b;padding:12px;border-radius:12px;margin:10px 0;text-align:left}
+.pay{background:white;color:black;border-radius:15px;padding:15px;margin:12px 0}
+</style>
+</head>
+<body>
+<div class="top">⚡ 2 MINUTE MA TOPUP ⚡ 24 HRS OPEN</div>
+<h1>🔥 ANURAG TOPUP CENTER 🔥</h1>
+<p>Fast • Safe • Trusted</p>
+<h3>👇 Afno Free Fire UID Lekhnus 👇</h3>
+<input id="uid" placeholder="Ex: 2345678901" type="number">
+<div class="card"><h2>💎 100 Diamond <span class="badge">POPULAR</span></h2><p class="price">Rs. 95</p><button onclick="order('100 Diamond Rs.95')">Order Now</button></div>
+<div class="card"><h2>💎 310 Diamond</h2><p class="price">Rs. 280</p><button onclick="order('310 Diamond Rs.280')">Order Now</button></div>
+<div class="card"><h2>💎 520 Diamond</h2><p class="price">Rs. 470</p><button onclick="order('520 Diamond Rs.470')">Order Now</button></div>
+<div class="card"><h2>💎 1060 Diamond</h2><p class="price">Rs. 940</p><button onclick="order('1060 Diamond Rs.940')">Order Now</button></div>
+<h2>🎁 WEEKLY / MONTHLY</h2>
+<div class="card"><h2>📅 Weekly Membership</h2><p class="price">Rs. 170</p><button onclick="order('Weekly Membership Rs.170')">Order Now</button></div>
+<div class="card"><h2>📅 Monthly Membership</h2><p class="price">Rs. 850</p><button onclick="order('Monthly Membership Rs.850')">Order Now</button></div>
+<div class="pay">
+<h2>💳 Payment Method</h2>
+<p><b>eSewa:</b> 9819573425</p>
+<p><b>Khalti:</b> 9819573425</p>
+<p>Paisa pathayepachi Screenshot WhatsApp ma pathaunus</p>
+<button style="background:#25D366" onclick="window.open('https://wa.me/9779819573425')">📱 WhatsApp ma Screenshot Pathaune</button>
+</div>
+<h2>⭐ Customer Review</h2>
+<div class="review">⭐⭐⭐⭐⭐<br><b>Ramesh - Banke</b><br>"2 minute mai topup ayo!"</div>
+<div class="review">⭐⭐⭐⭐⭐<br><b>Sujan - Nepalgunj</b><br>"Trusted dukan ho!"</div>
+<p style="font-size:13px">© 2026 Anurag Topup Center</p>
+<script>
+function order(p){
+var uid=document.getElementById('uid').value;
+if(uid==""){alert("Pahila UID halnus hai!");return;}
+window.open("https://wa.me/9779819573425?text=Hi! I want "+p+" My UID: "+uid);
+}
+</script>
+</body>
+</html>
